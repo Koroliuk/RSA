@@ -32,6 +32,13 @@ public class Main {
                for (char elem : String.valueOf(stringOfInput).toCharArray()) {
                    byteArray.add((byte) elem);
                }
+               ArrayList<Long> outputArray = AsymmetricCryptography.encrypt(byteArray, publicExponent, module);
+               FileWriter fileOutput = new FileWriter(fileOutputString);
+               for (long elem : outputArray) {
+                   fileOutput.write(Long.toHexString(elem)+" ");
+               }
+               fileOutput.close();
+               System.out.println("Done.");
            } else if (definer == 'd') {
                System.out.print("d");
            } else if (definer == 'g') {
