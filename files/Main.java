@@ -21,8 +21,17 @@ public class Main {
                long module = Long.parseLong(input[2]);
                String fileInputString = input[3];
                String fileOutputString = input[4];
-               FileInputStream fileInput = new FileInputStream(fileInputString);
-               BufferedInputStream fin = new BufferedInputStream(fileInput);
+               FileReader fileInput = new FileReader(fileInputString);
+               Scanner scannerIn = new Scanner(fileInput);
+               StringBuilder stringOfInput = new StringBuilder("");
+               while (scannerIn.hasNextLine()) {
+                   stringOfInput.append(scannerIn.nextLine());
+               }
+               fileInput.close();
+               ArrayList <Byte> byteArray = new ArrayList<>();
+               for (char elem : String.valueOf(stringOfInput).toCharArray()) {
+                   byteArray.add((byte) elem);
+               }
            } else if (definer == 'd') {
                System.out.print("d");
            } else if (definer == 'g') {
