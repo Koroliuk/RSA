@@ -1,13 +1,15 @@
 package com.company;
 
-import java.io.BufferedInputStream;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         while (true) {
            String command = scanner.nextLine();
@@ -53,7 +55,10 @@ public class Main {
                        longArray.add(Long.parseLong(s, 16));
                    }
                }
-               String outputString = ;
+               String outputString = AsymmetricCryptography.decrypt(longArray, privateExponent, module);
+               FileWriter fileOutput = new FileWriter(fileOutputString);
+               fileOutput.write(outputString);
+               fileOutput.close();
                System.out.print("Done");
            } else if (definer == 'g') {
                String[] input = command.split(" ");
@@ -67,7 +72,7 @@ public class Main {
                long prime2 = 2579;
                Key[] pairOfKeys = GenerateKeys.generateKeys(prime1, prime2);
                System.out.println("Public key: {"+pairOfKeys[0].firstNum+", "+pairOfKeys[0].secondNum+"}");
-               System.out.println("Private key: {"+pairOfKeys[1].firstNum+", "+pairOfKeys[1].secondNum+"}");
+               System.out.println("Private key: {"+pairOfKeys[1].firstNum+",  "+pairOfKeys[1].secondNum+"}");
            } else if (definer == 'h') {
                helpMessage();
            } else {
@@ -81,7 +86,9 @@ public class Main {
                 "e <public exp> <mod> <file in> <file out> -- Encrypt file\n" +
                 "d <private exp> <mod> <file in> <file out> -- Decrypt file\n" +
                 "g <prime1> <prime2> -- Generate key pair from primes\n" +
+                "G -- Generate key pair from default primes\n" +
                 "h -- Help\n" +
-                "q -- Exit\n");
+                "q -- Exit\n" +
+                "Primes must be more than 1000 to make RSA more safer");
     }
 }
