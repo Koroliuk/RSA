@@ -4,8 +4,8 @@ public class GenerateKeys {
 
     public static Key[] generateKeys(long prime1, long prime2) {
         long module = prime1*prime2;
-        long phi = (prime1-1)*(prime2-1);
-        long publicExponent = 65537; // One of Fermat prime numbers
+        long phi = (prime1-1L)*(prime2-1L);
+        long publicExponent = 65537L; // One of Fermat prime numbers
         long secretExponent = inverseModule(publicExponent, phi);
         Key[] pairOfKeys = new Key[2];
         pairOfKeys[0] = new Key(publicExponent, module);
@@ -15,8 +15,8 @@ public class GenerateKeys {
 
     private static long inverseModule(long num, long module) {
         long[] result = gcdExtended(num, module);
-        long x = Math.abs(result[1]);
-        return (x % module + module) % module;
+        long x = result[1];
+        return (x % module+module)%module;
     }
 
     private static long[] gcdExtended(long a, long b) {
