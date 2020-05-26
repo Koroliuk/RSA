@@ -89,6 +89,6 @@ public class Main {
                 "G -- Generate key pair from default primes\n" +
                 "h -- Help\n" +
                 "q -- Exit\n" +
-                "Primes must be more than 1000 to make RSA more safer");
+                "Primes must be more than 1000 to make RSA more safer\n");
     }
 }
