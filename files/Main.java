@@ -40,7 +40,7 @@ public class Main {
                    fileOutput.write(Long.toHexString(elem)+" ");
                }
                fileOutput.close();
-               System.out.println("Done");
+               System.out.println("Done\n");
            } else if (definer == 'd') {
                String[] input = command.split(" ");
                long privateExponent = Long.parseLong(input[1]);
@@ -59,7 +59,7 @@ public class Main {
                FileWriter fileOutput = new FileWriter(fileOutputString);
                fileOutput.write(outputString);
                fileOutput.close();
-               System.out.print("Done");
+               System.out.print("Done\n");
            } else if (definer == 'g') {
                String[] input = command.split(" ");
                long prime1 = Long.parseLong(input[1]);
