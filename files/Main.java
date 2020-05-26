@@ -40,7 +40,21 @@ public class Main {
                fileOutput.close();
                System.out.println("Done.");
            } else if (definer == 'd') {
-               System.out.print("d");
+               String[] input = command.split(" ");
+               long privateExponent = Long.parseLong(input[1]);
+               long module = Long.parseLong(input[2]);
+               String fileInputString = input[3];
+               String fileOutputString = input[4];
+               FileReader fileInput = new FileReader(fileInputString);
+               Scanner scannerIn = new Scanner(fileInput);
+               ArrayList<Long> longArray = new ArrayList<>();
+               while (scannerIn.hasNextLine()) {
+                   for (String s : scannerIn.nextLine().split(" ")) {
+                       longArray.add(Long.parseLong(s, 16));
+                   }
+               }
+               String outputString = ;
+               System.out.print("Done");
            } else if (definer == 'g') {
                String[] input = command.split(" ");
                long prime1 = Long.parseLong(input[1]);
