@@ -60,14 +60,14 @@ public class Main {
                long prime1 = Long.parseLong(input[1]);
                long prime2 = Long.parseLong(input[2]);
                Key[] pairOfKeys = GenerateKeys.generateKeys(prime1, prime2);
-               System.out.println("Public key: {"+pairOfKeys[0].firstNum+" "+pairOfKeys[0].secondNum+"}");
-               System.out.println("Private key: {"+pairOfKeys[1].firstNum+" "+pairOfKeys[1].secondNum+"}");
+               System.out.println("Public key: {"+pairOfKeys[0].firstNum+", "+pairOfKeys[0].secondNum+"}");
+               System.out.println("Private key: {"+pairOfKeys[1].firstNum+", "+pairOfKeys[1].secondNum+"}");
            } else if (definer == 'G') {
                long prime1 = 3557;
                long prime2 = 2579;
                Key[] pairOfKeys = GenerateKeys.generateKeys(prime1, prime2);
-               System.out.println("Public key: {"+pairOfKeys[0].firstNum+" "+pairOfKeys[0].secondNum+"}");
-               System.out.println("Private key: {"+pairOfKeys[1].firstNum+" "+pairOfKeys[1].secondNum+"}");
+               System.out.println("Public key: {"+pairOfKeys[0].firstNum+", "+pairOfKeys[0].secondNum+"}");
+               System.out.println("Private key: {"+pairOfKeys[1].firstNum+", "+pairOfKeys[1].secondNum+"}");
            } else if (definer == 'h') {
                helpMessage();
            } else {
