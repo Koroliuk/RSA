@@ -38,7 +38,7 @@ public class Main {
                    fileOutput.write(Long.toHexString(elem)+" ");
                }
                fileOutput.close();
-               System.out.println("Done.");
+               System.out.println("Done");
            } else if (definer == 'd') {
                String[] input = command.split(" ");
                long privateExponent = Long.parseLong(input[1]);
