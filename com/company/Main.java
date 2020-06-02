@@ -68,14 +68,14 @@ public class Main {
                 final long prime1 = Long.parseLong(input[1]);
                 final long prime2 = Long.parseLong(input[2]);
                 final Key[] pairOfKeys = GenerateKeys.generateKeys(prime1, prime2);
-                System.out.println("Public key: {" + pairOfKeys[0].firstNum + ", " + pairOfKeys[0].secondNum + "}");
-                System.out.println("Private key: {" + pairOfKeys[1].firstNum + ", " + pairOfKeys[1].secondNum + "}");
+                System.out.println("Public key: {" + pairOfKeys[0].getFirstNum() + ", " + pairOfKeys[0].getSecondNum() + "}");
+                System.out.println("Private key: {" + pairOfKeys[1].getFirstNum() + ", " + pairOfKeys[1].getSecondNum() + "}");
             } else if (definer == 'G') {
                 final long prime1 = 3557;
                 final long prime2 = 2579;
                 final Key[] pairOfKeys = GenerateKeys.generateKeys(prime1, prime2);
-                System.out.println("Public key: {" + pairOfKeys[0].firstNum + ", " + pairOfKeys[0].secondNum + "}");
-                System.out.println("Private key: {" + pairOfKeys[1].firstNum + ",  " + pairOfKeys[1].secondNum + "}");
+                System.out.println("Public key: {" + pairOfKeys[0].getFirstNum() + ", " + pairOfKeys[0].getSecondNum() + "}");
+                System.out.println("Private key: {" + pairOfKeys[1].getFirstNum() + ",  " + pairOfKeys[1].getSecondNum() + "}");
             } else if (definer == 'h') {
                 helpMessage();
             } else {
