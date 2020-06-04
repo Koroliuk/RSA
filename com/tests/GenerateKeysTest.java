@@ -23,7 +23,7 @@ public class GenerateKeysTest {
 
     @Test
     public void generateKeys() {
-        Key[] pairOfKeys = GenerateKeys.generateKeys(3557L, 2579L);
+        final Key[] pairOfKeys = GenerateKeys.generateKeys(3557L, 2579L);
         assertTrue(pairOfKeys[0].getFirstNum() == 65537L);
         assertTrue(pairOfKeys[0].getSecondNum() == 9173503L);
         assertTrue(pairOfKeys[1].getFirstNum() == 4922825L);
