@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1240a87c-bb73-4127-919b-3d498cde0d1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/RSA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1crsMqysQeLA4V0mBHF3LIoKy9S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Template Data Languages" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="RSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.qCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.MainTest" />
+      <option name="METHOD_NAME" value="qCommand" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.MainTest.qCommand" />
+      <item itemvalue="JUnit.MainTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.qCommand" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1240a87c-bb73-4127-919b-3d498cde0d1e" name="Default Changelist" comment="" />
+      <created>1591298002120</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591298002120</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591298439630">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1591298439630" />
+    <state x="692" y="344" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591298242190">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="692" y="344" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1591298242190" />
+    <state x="743" y="295" width="735" height="513" key="FileChooserDialogImpl" timestamp="1591298687693">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="295" width="735" height="513" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1591298687693" />
+    <state width="914" height="185" key="GridCell.Tab.0.bottom" timestamp="1591298579622">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="914" height="185" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1591298579622" />
+    <state width="914" height="185" key="GridCell.Tab.0.center" timestamp="1591298579622">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="914" height="185" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1591298579622" />
+    <state width="914" height="185" key="GridCell.Tab.0.left" timestamp="1591298579622">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="914" height="185" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1591298579622" />
+    <state width="914" height="185" key="GridCell.Tab.0.right" timestamp="1591298579622">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="914" height="185" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1591298579622" />
+    <state width="1874" height="344" key="GridCell.Tab.1.bottom" timestamp="1591297979904">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1591297979904" />
+    <state width="1874" height="344" key="GridCell.Tab.1.center" timestamp="1591297979904">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1591297979904" />
+    <state width="1874" height="344" key="GridCell.Tab.1.left" timestamp="1591297979903">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1591297979903" />
+    <state width="1874" height="344" key="GridCell.Tab.1.right" timestamp="1591297979904">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1591297979904" />
+    <state x="543" y="298" width="824" height="508" key="IDE.errors.dialog" timestamp="1591296970645">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="543" y="298" width="824" height="508" key="IDE.errors.dialog/0.27.1920.1053@0.27.1920.1053" timestamp="1591296970645" />
+    <state x="91" y="184" width="1024" height="845" key="SettingsEditor" timestamp="1591298805927">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="91" y="184" width="1024" height="845" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1591298805927" />
+    <state x="624" y="253" key="run.anything.popup" timestamp="1591298275823">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="253" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1591298275823" />
+  </component>
+</project>

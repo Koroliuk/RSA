@@ -21,7 +21,7 @@ public class AsymmetricCryptography {
         return String.valueOf(output);
     }
 
-    private static long binPow(final long a, final long n, final long module) {
+    public static long binPow(final long a, final long n, final long module) {
         if (n == 0)
             return 1;
         if (n % 2 == 1)

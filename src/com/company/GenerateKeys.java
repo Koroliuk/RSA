@@ -13,13 +13,13 @@ public class GenerateKeys {
         return pairOfKeys;
     }
 
-    private static long inverseModule(final long num, final long module) {
+    public static long inverseModule(final long num, final long module) {
         final long[] result = gcdExtended(num, module);
         final long x = result[1];
         return (x % module + module) % module;
     }
 
-    private static long[] gcdExtended(final long a, final long b) {
+    public static long[] gcdExtended(final long a, final long b) {
         if (a == 0L) {
             return new long[] { b, 0L, 1L };
         }
