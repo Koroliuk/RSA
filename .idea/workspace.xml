@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1240a87c-bb73-4127-919b-3d498cde0d1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RSA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AsymmetricCryptography.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/GenerateKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tests/AsymmetricCryptographyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tests/GenerateKeysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tests/KeyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tests/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/company/AsymmetricCryptography.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/company/GenerateKeys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/company/Key.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tests/AsymmetricCryptographyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tests/GenerateKeysTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tests/KeyTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="RSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.qCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.MainTest" />
+      <option name="METHOD_NAME" value="qCommand" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.MainTest.qCommand" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MainTest.qCommand" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591296035161">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1591296035161" />
+    <state x="692" y="344" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591295919841">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="692" y="344" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1591295919841" />
+    <state x="743" y="295" width="424" height="513" key="FileChooserDialogImpl" timestamp="1591295960242">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="295" width="424" height="513" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1591295960242" />
+    <state width="1874" height="469" key="GridCell.Tab.0.bottom" timestamp="1591296872074">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="469" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1591296872074" />
+    <state width="1874" height="469" key="GridCell.Tab.0.center" timestamp="1591296872074">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="469" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1591296872074" />
+    <state width="1874" height="469" key="GridCell.Tab.0.left" timestamp="1591296872074">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="469" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1591296872074" />
+    <state width="1874" height="469" key="GridCell.Tab.0.right" timestamp="1591296872074">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="469" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1591296872074" />
+    <state x="0" y="187" key="SettingsEditor" timestamp="1591296935472">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="0" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1591296935472" />
+  </component>
+</project>

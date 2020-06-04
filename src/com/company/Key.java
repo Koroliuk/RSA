@@ -1,8 +1,8 @@
 package com.company;
 
 public class Key {
-    private long firstNum;
-    private long secondNum;
+    private final long firstNum;
+    private final long secondNum;
 
     public Key(final long firstNum, final long secondNum) {
         this.firstNum = firstNum;

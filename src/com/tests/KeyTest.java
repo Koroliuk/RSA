@@ -1,6 +1,6 @@
 package com.tests;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import com.company.Key;
 
@@ -9,28 +9,29 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class KeyTest {
-    private Key key;
-    private long num1, num2;
+    private static Key key;
+    private static long num1;
+    private static long num2;
     
     @BeforeClass
-    public void init() {
+    public static void init() {
         num1 = 3001L;
         num2 = 2591L;
         key = new Key(num1, num2);
     }
 
     @AfterClass
-    public void tearDown() {
+    public static void tearDown() {
         key = null;
     }
 
     @Test 
     public void getFirstNum() {
-        assertTrue(key.getFirstNum() == num1);
+        assertEquals(key.getFirstNum(), num1);
     }
     
     @Test
     public void getSecondNum() {
-        assertTrue(key.getSecondNum() == num2);
+        assertEquals(key.getSecondNum(), num2);
     }
 }
